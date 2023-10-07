@@ -1,0 +1,45 @@
+.titulos{
+    color: rgb(84, 29, 84);
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+li a{
+    color: rgb(255, 0, 128);
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.Prueba1{
+    background-image: url("../imagenes/Comic.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.Header{
+    position: sticky;
+    top: 0;
+}
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: left;
+    align-items: center;
+
+}
+.LogoInicio {
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+  
+.LogoInicio img {
+    width: 70px;
+    height: 70px;
+}

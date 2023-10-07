@@ -1,0 +1,472 @@
+@charset "UTF-8";
+footer {
+  font-family: "Neucha-Regular, Neucha";
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 15px 0;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconosfooter {
+  display: flex;
+  gap: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.titulos {
+  color: rgb(84, 29, 84);
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+
+li a {
+  color: rgb(255, 0, 128);
+  font-size: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.Prueba1 {
+  background-image: url("../imagenes/Comic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.Header {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: left;
+  align-items: center;
+}
+
+.LogoInicio {
+  position: absolute;
+  left: 50px;
+  top: 5px;
+}
+
+.LogoInicio img {
+  width: 70px;
+  height: 70px;
+}
+
+.contenedor {
+  border-top: 3px solid violet;
+  background-color: rgba(0, 0, 0, 0.221);
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column; /* Apila los elementos uno debajo del otro */
+  align-items: center; /* Centra horizontalmente los elementos */
+  text-align: center; /* Centra el texto horizontalmente */
+  max-width: 100%; /* Ancho máximo para asegurar que se ajuste al tamaño de la pantalla */
+  margin: 0 auto; /* Centra el contenedor horizontalmente en la pantalla */
+  padding: 20px; /* Espaciado interno */
+  flex-wrap: wrap; /* Hace que los elementos se envuelvan automáticamente cuando no caben en la pantalla */
+}
+
+.MensajeEntrada {
+  margin: auto;
+  height: 120px;
+  width: 400px;
+  background-color: rgb(161, 112, 160);
+  border-radius: 10px;
+  border: 2px solid rgb(160, 65, 130);
+  box-shadow: 0 2px 4px grey;
+  bottom: 20px;
+}
+
+.contenedorHijo {
+  top: -100px;
+  height: 450px;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid rgb(160, 65, 130);
+  box-shadow: 0 2px 4px grey;
+}
+
+.Imagen__dentro_caja:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  transition-delay: 180ms;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoComic {
+  position: relative;
+  height: 220px;
+  width: 200px;
+  overflow: hidden;
+  top: -10px;
+  background-color: rgba(176, 120, 168, 0.491);
+  padding-top: 2px;
+  border-radius: 5px;
+  border-style: groove;
+  text-align: center;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 90px 90px 90px 90px;
+  grid-template-rows: 90px 90px 90px 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+  justify-content: space-evenly;
+}
+
+main .main, main .section, section .main, section .section {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ff69b4, #ff1493);
+  text-align: center;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type=reset],
+input[type=submit] {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type=reset]:hover,
+input[type=submit]:hover {
+  background-color: #ff1493;
+}
+
+.contenedor {
+  border-top: 3px solid violet;
+  margin: 50px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.221);
+  display: flex;
+  flex-direction: column;
+}
+
+.MensajeEntrada {
+  margin: auto;
+  height: 120px;
+  width: 400px;
+  background-color: rgb(161, 112, 160);
+  border-radius: 10px;
+  border: 2px solid rgb(160, 65, 130);
+  box-shadow: 0 2px 4px grey;
+  bottom: 20px;
+}
+
+.contenedorHijo {
+  top: -100px;
+  height: 450px;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid rgb(160, 65, 130);
+  box-shadow: 0 2px 4px grey;
+}
+
+.Imagen__dentro_caja:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  transition-delay: 180ms;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoComic {
+  position: relative;
+  height: 220px;
+  width: 200px;
+  overflow: hidden;
+  top: -10px;
+  background-color: rgba(176, 120, 168, 0.491);
+  padding-top: 2px;
+  border-radius: 5px;
+  border-style: groove;
+  text-align: center;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 90px 90px 90px 90px;
+  grid-template-rows: 90px 90px 90px 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+  justify-content: space-evenly;
+}
+
+main .main, main .section, section .main, section .section {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.contenedor {
+  border-top: 3px solid violet;
+  margin: 50px;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.221);
+  display: flex;
+  flex-direction: column;
+}
+
+.MensajeEntrada {
+  margin: auto;
+  height: 120px;
+  width: 400px;
+  background-color: rgb(161, 112, 160);
+  border-radius: 10px;
+  border: 2px solid rgb(160, 65, 130);
+  box-shadow: 0 2px 4px grey;
+  bottom: 20px;
+}
+
+.contenedorHijo {
+  top: -100px;
+  height: 450px;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid rgb(160, 65, 130);
+  box-shadow: 0 2px 4px grey;
+}
+
+.Imagen__dentro_caja:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  transition-delay: 180ms;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoComic {
+  position: relative;
+  height: 220px;
+  width: 200px;
+  overflow: hidden;
+  top: -10px;
+  background-color: rgba(176, 120, 168, 0.491);
+  padding-top: 2px;
+  border-radius: 5px;
+  border-style: groove;
+  text-align: center;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 90px 90px 90px 90px;
+  grid-template-rows: 90px 90px 90px 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+  justify-content: space-evenly;
+}
+
+main .main, main .section, section .main, section .section {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: 200px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .MensajeEntrada {
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  ul li a {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=style.css.map */
